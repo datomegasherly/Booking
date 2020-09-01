@@ -12,6 +12,17 @@ import './css/flaticon.css';
 import './css/icomoon.css';
 import './css/style.css';
 
+import './js/bootstrap.min.js';
+import './js/jquery.waypoints.min.js';
+import './js/owl.carousel.min.js';
+import './js/jquery.magnific-popup.min.js';
+import './js/aos.js';
+import './js/jquery.animateNumber.min.js';
+import './js/bootstrap-datepicker.js';
+import './js/scrollax.min.js';
+import './js/main.js';
+
+
 //navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light
 
 class App extends Component {
