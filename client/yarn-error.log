@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Lion\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add jquery-ui
+  C:\Program Files\nodejs\node.exe C:\Users\Lion\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-redux
 
 PATH: 
   G:\Program Files (x86)\ImageMagick-7.0.10-Q16;G:\Python27\;G:\Python27\Scripts;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Lion\AppData\Local\Microsoft\WindowsApps;C:\Users\Lion\AppData\Local\Programs\Microsoft VS Code\bin;F:\xampp7.4.6\php;f:\apache24;f:\apache24\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Redis;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;G:\Program Files\Redis\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;G:\Program Files\Git\cmd;C:\Users\Lion\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lion\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lion\AppData\Roaming\Composer\vendor\bin;C:\Users\Lion\AppData\Roaming\npm
@@ -47,7 +47,6 @@ npm manifest:
       "jquery": "^3.5.1",
       "jquery-migrate": "^3.3.1",
       "jquery.easing": "^1.4.1",
-      "jquery.stellar": "^0.6.2",
       "popper.js": "^1.16.1",
       "react": "^16.13.1",
       "react-dom": "^16.13.1",
@@ -3337,6 +3336,11 @@ Lockfile:
     version "3.3.1"
     resolved "https://registry.yarnpkg.com/jquery-migrate/-/jquery-migrate-3.3.1.tgz#0f8e2b7531228fda5d88be58dc0e7d5848e52fd1"
     integrity sha512-QAXfshB6xqaANDX8OPExKnnooLtX0cSDCKfRnqhdv+3CVEVD9L1v3zNAhZum/4AukKlWUWUoxM6ywJJcLMXLSA==
+  
+  jquery-ui@^1.12.1:
+    version "1.12.1"
+    resolved "https://registry.yarnpkg.com/jquery-ui/-/jquery-ui-1.12.1.tgz#bcb4045c8dd0539c134bc1488cdd3e768a7a9e51"
+    integrity sha1-vLQEXI3QU5wTS8FIjN0+dop6nlE=
   
   jquery.easing@^1.4.1:
     version "1.4.1"
