@@ -22,11 +22,15 @@ import './js/bootstrap-datepicker.js';
 import './js/scrollax.min.js';
 import Navbar from './static/navbar';
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/home';
-
+import Footer from './static/footer';
+import About from './pages/about';
+import Hotels from './pages/hotels';
+import Hotel from './pages/hotel';
 
 //navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light
+require('./js/main.js');
 
 class App extends Component {
     render() {
@@ -35,7 +39,11 @@ class App extends Component {
                 <Navbar />
                 <Switch>
                     <Route exact path="/" component={Home} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/hotels" component={Hotels} />
+                    <Route exact path="/hotel/:id" component={Hotel} />
                 </Switch>
+                <Footer />
             </Router>
         )
     }

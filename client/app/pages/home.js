@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import jQuery from 'jquery';
 
 class Home extends Component {
     componentDidMount = () => {
-        require('../js/main.js');
+        jQuery.renderRequest();
     }
     render() {
         return (

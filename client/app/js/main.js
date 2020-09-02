@@ -10,9 +10,8 @@ import jQuery from 'jquery';
  	easing: 'slide'
  });
 
-(function($){
-	//"use strict";
-
+jQuery.renderRequest = function() {
+	let $ = jQuery;
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
@@ -348,6 +347,5 @@ import jQuery from 'jquery';
 	  'format': 'm/d/yyyy',
 	  'autoclose': true
 	});
-
-})(jQuery);
+}
 
