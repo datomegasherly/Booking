@@ -1,6 +1,7 @@
 import AOS from './aos.js';
 //import jQuery from 'jquery';
-require('./jquery-3.2.1.min.js');
+require('./jquery.magnific-popup.min.js');
+require('./jquery-migrate-3.0.1.min.js');
 require('./jquery.stellar.min.js');
 import jQuery from 'jquery';
 
@@ -9,9 +10,8 @@ import jQuery from 'jquery';
  	easing: 'slide'
  });
 
-(function($) {
-/*
-	"use strict";
+(function($){
+	//"use strict";
 
 	var isMobile = {
 		Android: function() {
@@ -348,9 +348,6 @@ import jQuery from 'jquery';
 	  'format': 'm/d/yyyy',
 	  'autoclose': true
 	});
-
-
-*/
 
 })(jQuery);
 
